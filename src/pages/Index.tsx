@@ -85,9 +85,9 @@ const Index = () => {
             <h1 className="text-2xl font-bold text-secondary">СтройРемонт</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
+            <a href="/" className="text-primary font-medium">Главная</a>
+            <a href="/gallery" className="text-secondary hover:text-primary transition-colors">Фотогалерея</a>
             <a href="#services" className="text-secondary hover:text-primary transition-colors">Услуги</a>
-            <a href="#portfolio" className="text-secondary hover:text-primary transition-colors">Портфолио</a>
-            <a href="#reviews" className="text-secondary hover:text-primary transition-colors">Отзывы</a>
             <a href="#contact" className="text-secondary hover:text-primary transition-colors">Контакты</a>
           </nav>
           <Button className="bg-primary hover:bg-primary/90">
